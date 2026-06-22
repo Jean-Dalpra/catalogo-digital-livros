@@ -1,0 +1,13 @@
+[
+ {
+ "id": 1,
+ "titulo": "Dom Casmurro",
+ "autor": "Machado de Assis",
+ "categoria": "Literatura Brasileira",
+ "status": "Lido",
+ "paginas": 256,
+ "nota": 4.8,
+ "tags": ["clássico", "realismo", "brasil"],
+ "descricao": "Romance sobre memória, ciúme e interpretação."
+ }
+]
