@@ -1,13 +1,167 @@
 [
- {
- "id": 1,
- "titulo": "Dom Casmurro",
- "autor": "Machado de Assis",
- "categoria": "Literatura Brasileira",
- "status": "Lido",
- "paginas": 256,
- "nota": 4.8,
- "tags": ["clássico", "realismo", "brasil"],
- "descricao": "Romance sobre memória, ciúme e interpretação."
- }
+  {
+    "id": 1,
+    "titulo": "Dom Casmurro",
+    "autor": "Machado de Assis",
+    "categoria": "Literatura Brasileira",
+    "status": "Lido",
+    "paginas": 256,
+    "nota": 4.8,
+    "tags": ["clássico", "realismo", "brasil"],
+    "descricao": "Romance sobre memória, ciúme e interpretação."
+  },
+  {
+    "id": 2,
+    "titulo": "Memórias Póstumas de Brás Cubas",
+    "autor": "Machado de Assis",
+    "categoria": "Literatura Brasileira",
+    "status": "Quero ler",
+    "paginas": 320,
+    "nota": 4.9,
+    "tags": ["clássico", "realismo", "ironia"],
+    "descricao": "Narrado por um defunto autor, critica a sociedade brasileira."
+  },
+  {
+    "id": 3,
+    "titulo": "O Cortiço",
+    "autor": "Aluísio Azevedo",
+    "categoria": "Literatura Brasileira",
+    "status": "Lido",
+    "paginas": 280,
+    "nota": 4.6,
+    "tags": ["naturalismo", "sociedade", "realismo"],
+    "descricao": "Retrata a vida em um cortiço no Rio de Janeiro."
+  },
+  {
+    "id": 4,
+    "titulo": "Grande Sertão: Veredas",
+    "autor": "João Guimarães Rosa",
+    "categoria": "Literatura Brasileira",
+    "status": "Lendo",
+    "paginas": 600,
+    "nota": 4.9,
+    "tags": ["regionalismo", "sertão", "clássico"],
+    "descricao": "Narrativa sobre jagunços e dilemas existenciais no sertão."
+  },
+  {
+    "id": 5,
+    "titulo": "Capitães da Areia",
+    "autor": "Jorge Amado",
+    "categoria": "Literatura Brasileira",
+    "status": "Quero ler",
+    "paginas": 240,
+    "nota": 4.7,
+    "tags": ["social", "infância", "baixa renda"],
+    "descricao": "Grupo de crianças vivendo nas ruas de Salvador."
+  },
+  {
+    "id": 6,
+    "titulo": "1984",
+    "autor": "George Orwell",
+    "categoria": "Distopia",
+    "status": "Lido",
+    "paginas": 328,
+    "nota": 4.9,
+    "tags": ["distopia", "política", "controle"],
+    "descricao": "Um mundo dominado por vigilância totalitária."
+  },
+  {
+    "id": 7,
+    "titulo": "A Revolução dos Bichos",
+    "autor": "George Orwell",
+    "categoria": "Fábula Política",
+    "status": "Lido",
+    "paginas": 152,
+    "nota": 4.8,
+    "tags": ["política", "fábula", "crítica social"],
+    "descricao": "Animais tomam o controle de uma fazenda."
+  },
+  {
+    "id": 8,
+    "titulo": "O Senhor dos Anéis: A Sociedade do Anel",
+    "autor": "J.R.R. Tolkien",
+    "categoria": "Fantasia",
+    "status": "Quero ler",
+    "paginas": 423,
+    "nota": 4.9,
+    "tags": ["fantasia", "aventura", "épico"],
+    "descricao": "Início da jornada para destruir o Um Anel."
+  },
+  {
+    "id": 9,
+    "titulo": "Harry Potter e a Pedra Filosofal",
+    "autor": "J.K. Rowling",
+    "categoria": "Fantasia",
+    "status": "Lido",
+    "paginas": 264,
+    "nota": 4.7,
+    "tags": ["magia", "aventura", "escola"],
+    "descricao": "Um jovem bruxo descobre seu mundo mágico."
+  },
+  {
+    "id": 10,
+    "titulo": "O Pequeno Príncipe",
+    "autor": "Antoine de Saint-Exupéry",
+    "categoria": "Fábula",
+    "status": "Lido",
+    "paginas": 96,
+    "nota": 4.9,
+    "tags": ["filosofia", "infantil", "reflexão"],
+    "descricao": "Uma história poética sobre amor e perda."
+  },
+  {
+    "id": 11,
+    "titulo": "A Metamorfose",
+    "autor": "Franz Kafka",
+    "categoria": "Ficção Existencial",
+    "status": "Quero ler",
+    "paginas": 128,
+    "nota": 4.6,
+    "tags": ["existencialismo", "absurdo", "psicológico"],
+    "descricao": "Um homem acorda transformado em inseto."
+  },
+  {
+    "id": 12,
+    "titulo": "Orgulho e Preconceito",
+    "autor": "Jane Austen",
+    "categoria": "Romance",
+    "status": "Lido",
+    "paginas": 352,
+    "nota": 4.8,
+    "tags": ["romance", "sociedade", "clássico"],
+    "descricao": "Crítica social através de um romance de época."
+  },
+  {
+    "id": 13,
+    "titulo": "Duna",
+    "autor": "Frank Herbert",
+    "categoria": "Ficção Científica",
+    "status": "Quero ler",
+    "paginas": 688,
+    "nota": 4.9,
+    "tags": ["sci-fi", "política", "deserto"],
+    "descricao": "Conflitos em um planeta desértico estratégico."
+  },
+  {
+    "id": 14,
+    "titulo": "O Código Da Vinci",
+    "autor": "Dan Brown",
+    "categoria": "Suspense",
+    "status": "Lido",
+    "paginas": 480,
+    "nota": 4.5,
+    "tags": ["mistério", "religião", "thriller"],
+    "descricao": "Uma investigação cheia de símbolos e segredos."
+  },
+  {
+    "id": 15,
+    "titulo": "Percy Jackson e o Ladrão de Raios",
+    "autor": "Rick Riordan",
+    "categoria": "Fantasia",
+    "status": "Lido",
+    "paginas": 377,
+    "nota": 4.7,
+    "tags": ["mitologia", "aventura", "juventude"],
+    "descricao": "Um garoto descobre ser filho de Poseidon."
+  }
 ]
