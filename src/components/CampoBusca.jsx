@@ -6,7 +6,7 @@ function CampoBusca({ valor, aoAlterar }) {
         type="search"
         value={valor}
         onChange={(evento) => aoAlterar(evento.target.value)}
-        placeholder="Exemplo: ciência, Machado, tecnologia…"
+        placeholder="Exemplo: ciência, enem, portugal…"
       />
     </label>
   );

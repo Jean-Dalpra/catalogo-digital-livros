@@ -67,15 +67,17 @@ function App() {
 
   return (
     <>
+    <link rel="shortcut icon" href="https://images.seeklogo.com/logo-png/16/2/enem-logo-png_seeklogo-168949.png" type="image/x-icon" />
       <Header />
 
       <main className="pagina" id="catalogo">
         <section className="hero">
-          <span className="hero-eyebrow">Projeto React Guiado por Dados</span>
-          <h1>Catálogo para organizar leituras e recomendações</h1>
+          <span className="hero-eyebrow">Projeto Acervo de Livros para Vestibulandos</span>
+          <h1>Catálogo Organizador de Livros Para Vestibular</h1>
           <p className="hero-sub">
-            Uma interface construída com componentes reutilizáveis. Filtre dinamicamente, salve favoritos e explore o seu acervo.
+            Uma interface construída pensando na Produtividade. Filtre dinamicamente, salve favoritos e explore o seu acervo!!!
           </p>
+          <img src="https://images.seeklogo.com/logo-png/16/2/enem-logo-png_seeklogo-168949.png" alt="" />
         </section>
 
         <PainelEstatisticas

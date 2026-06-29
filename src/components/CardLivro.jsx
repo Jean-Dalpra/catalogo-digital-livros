@@ -27,6 +27,22 @@ function CardLivro({ livro, favorito, aoAlternarFavorito }) {
         </button>
       </div>
 
+      {/* Seção da Imagem do Livro */}
+      <div className="card-livro__capa-container">
+        {livro.imagem ? (
+          <img 
+            src={livro.imagem} 
+            alt={`Capa do livro ${livro.titulo}`} 
+            className="card-livro__imagem"
+            loading="lazy"
+          />
+        ) : (
+          <div className="card-livro__imagem-fallback">
+            <span>{initials}</span>
+          </div>
+        )}
+      </div>
+
       <h2>{livro.titulo}</h2>
 
       <p className="autor">
