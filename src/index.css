@@ -348,6 +348,12 @@ p { margin: 0; }
   transition: transform 0.22s ease, border-color 0.22s ease, box-shadow 0.22s ease;
   position: relative;
   overflow: hidden;
+  cursor: pointer;
+}
+
+.card-livro:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
 }
 
 .card-livro::before {
@@ -467,6 +473,21 @@ p { margin: 0; }
   flex-wrap: wrap;
   gap: 6px;
   margin-top: 2px;
+}
+
+.ver-detalhes {
+  margin-top: auto;
+  align-self: flex-start;
+  font-size: 0.78rem;
+  font-weight: 600;
+  color: var(--accent);
+  opacity: 0.75;
+  transition: opacity 0.2s, transform 0.2s;
+}
+
+.card-livro:hover .ver-detalhes {
+  opacity: 1;
+  transform: translateX(2px);
 }
 
 .tag {

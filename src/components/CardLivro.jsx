@@ -1,3 +1,5 @@
+import { abrirDetalhesLivro } from '../components/abrirDetalhesLivro';
+
 function getInitials(titulo) {
   return titulo
     .split(' ')
@@ -11,23 +13,43 @@ function CardLivro({ livro, favorito, aoAlternarFavorito }) {
   const initials = getInitials(livro.titulo);
   const statusClass = `status status-${livro.status.toLowerCase().replace(' ', '-')}`;
 
+  function lidarComCliqueNoCard() {
+    abrirDetalhesLivro(livro);
+  }
+
+  function lidarComCliqueNoFavorito(evento) {
+    evento.stopPropagation();
+    aoAlternarFavorito(livro.id);
+  }
+
+  function lidarComTeclaNoCard(evento) {
+    if (evento.key === 'Enter' || evento.key === ' ') {
+      evento.preventDefault();
+      abrirDetalhesLivro(livro);
+    }
+  }
+
   return (
     <article
       className="card-livro"
       data-initials={initials}
+      onClick={lidarComCliqueNoCard}
+      onKeyDown={lidarComTeclaNoCard}
+      role="button"
+      tabIndex={0}
+      aria-label={`Ver detalhes de ${livro.titulo}`}
     >
       <div className="card-livro__cabecalho">
         <span className="categoria">{livro.categoria}</span>
         <button
           className={`favorito ${favorito ? 'ativo' : ''}`}
-          onClick={() => aoAlternarFavorito(livro.id)}
+          onClick={lidarComCliqueNoFavorito}
           aria-label={favorito ? 'Remover dos favoritos' : 'Adicionar aos favoritos'}
         >
           {favorito ? '★' : '☆'}
         </button>
       </div>
 
-      {/* Seção da Imagem do Livro */}
       <div className="card-livro__capa-container">
         {livro.imagem ? (
           <img 
@@ -66,6 +88,8 @@ function CardLivro({ livro, favorito, aoAlternarFavorito }) {
           ))}
         </div>
       )}
+
+      <span className="ver-detalhes">Ver detalhes →</span>
     </article>
   );
 }
